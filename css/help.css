@@ -1,0 +1,40 @@
+.page-help
+{
+        background-image: url(../img/help_page.jpg);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        padding-left: 150px;
+        background-size: 736px 1000px;
+        background-color: #101419;
+}
+.main
+{
+    height: 775px;
+    padding-top: 223px;
+    box-sizing: border-box;
+    &__author
+    {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: $accent-color;
+    }
+    &__title
+    {
+        color: $main-color;
+    }
+    &__subtitle
+    {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        color: #5A6482;
+        width: 411px;
+        margin-bottom: 40px;
+    }
+    .btn
+    {
+        margin: 0 auto;
+    }
+}

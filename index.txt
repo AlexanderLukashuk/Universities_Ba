@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Work+Sans:wght@400;500;600;700&display=swap"
+            rel="stylesheet">
+        <!--<script src="https://kit.fontawesome.com/85f09a4961.js" crossorigin="anonymous"></script>-->
+        <script src="https://kit.fontawesome.com/7fa062c106.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="css/style.min.css">
+    </head>
+
+    <body>
+        <div class="page">
+            <div class="container">
+                <div class="header">
+                <div class="row">
+                    <a href="#" class="header__logo">
+                        <img class="header__logo" src="img/logo_2.svg" alt="Logo">
+                    </a>
+                </div>
+                <div class="row">
+                    <form class="header__search"> 
+                        <input class="header__search_input" type="text" name="text" class="search" placeholder="Search here!">
+                        <input class="header__search_btn" type="submit" name="submit" class="submit" value="Search">
+                    </form>
+                </div>
+                <div class="row">
+                    <ul class="header-menu">
+                        <!--<select class="header-menu__list">-->
+                            <!--<option disabled>Categoryes</option>-->
+                            <!--<optgroup label="Categoryes">
+                                <option value="Categoryes">Categoryes</option>
+                                <option value="Nature">Nature</option>
+                                <option value="Robots">Robots</option>
+                                <option value="Cats">Cats</option>
+                            </optgroup>
+                        </select>-->
+                        <!--<li class="header-menu__list header-menu__list_active"><a href="#">Why Bello</a></li>-->
+                        <!--<li class="header-menu__list"><a href="#">Help</a></li>-->
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="header-btns">
+                        <button class="header-btns__login">Log in</button>
+                        <button class="btn header-btns__register">Registration</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-main">
+            <div class="container">
+                <div class="main">
+                    <button class="btn btn_incoming">Incoming</button>
+                    <button class="btn btn_today">Today</button>
+                    <button class="btn btn_upcoming">Upcoming</button>
+                    <div class="main-center">
+                        <div class="main-description">
+                            <h1>Today</h1>
+                            <div class="main-description-tasks">
+                                <button class="btn tasks">Meeting with Larisa</button>
+                                <hr>
+                                <button class="btn tasks">Think through the brand idea</button>
+                                <hr>
+                                <button class="btn tasks">Prototype design</button>
+                                <hr>
+                                <button class="btn tasks">Organize a photo shoot</button>
+                                <hr>
+                                <button class="btn tasks">Don't forget the umbrella</button>
+                                <hr>
+                                <button class="btn tasks">Add a task</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
