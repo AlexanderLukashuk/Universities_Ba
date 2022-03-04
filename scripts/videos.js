@@ -37,3 +37,7 @@ $("#harvard_vlog").click(function() {
 $("#harvard_students_life").click(function() {
     window.open("https://www.youtube.com/watch?v=XkFulQe9EVE");
 });
+
+$(".btn-watch").css({
+    "color": "#62D0DF"
+});
