@@ -182,7 +182,7 @@ body
         padding-left: 10px;
     } */
     padding-left: 10px;
-    width: 474px;
+    width: 30px;
     height: 27px;
     left: 179px;
     top: 27px;
@@ -203,7 +203,7 @@ body
     display: flex;
     align-items: center;
     flex-grow: 1;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .menu-item
