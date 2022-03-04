@@ -253,7 +253,7 @@ body
     padding-right: 10px;
 }
 
-.header-btns__price
+.header-btns__contact
 {
     margin-top: 10px;
     width: 150px;
@@ -261,7 +261,11 @@ body
     left: 1159px;
     top: 27px;
 
+    font-size: 14px;
+    line-height: 16px;
+
     background: #62D0DF;
+    color: #FFFFFF;
     border-radius: 50px;
 }
 
