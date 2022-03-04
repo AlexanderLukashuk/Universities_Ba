@@ -1,30 +1,6 @@
-
-// $("#btn_orange").click(function() {
-//     var donateWindow = window.open("about:blank", "hello", "width=200,height=200");
-
-//     donateWindow.document.write("Привет, мир!");
-
-//     var donateWindow = window.open('/', 'donate', 'width=600,height=400');
-
-//     alert(donateWindow.location.href);
-
-//     donateWindow.onload = function() {
-//         var div = donateWindow.document.createElement('div'),
-//             body = donateWindow.document.body;
-
-//         div.innerHTML = 'Welcome';
-//         div.style.fontSize = '30px';
-
-//         body.insertBefore(div, body.firstChild);
-//     }
-// });
-
-
 $(window).on('resize', function () {
     var dropDown = $("<div class='dropdown'></div");
     var dropDownBtn = $("<button class='btn btn-secondary dropdown-toggle' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>Menu</button>");
-    //var dropDownBtn = $("<button class='dropdownbtn' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>Dropdown button</button>");
-    //var dropdownContent = $("<div class='dropdown-content'>");
     var dropDownMenu = $("<ul class='dropdown-menu' aria-labelledby='dropdownMenuButton1'></ul>");
 
     let dropDownMenuList = [
@@ -49,51 +25,34 @@ $(window).on('resize', function () {
         headerMenu.append(headerMenuList[step]);
     }
 
-    // let arr = [
-    //     $("<a href='#'>Link 1</a>"),
-    //     $("<a href='#'>Link 2</a>"),
-    //     $("<a href='#'>Link 3</a>")
-    // ];
-
-    // for (step = 0; step <= 2; step++) {
-    //     dropdownContent.append(arr[step]);
-    // }
-
     dropDown.append(dropDownBtn).append(dropDownMenu);
 
-    if ($(window).width() < 1010) {
-        $(".header-menu").remove();
-        $(".dropdown").remove();
-        $(".header").append(dropDown);
-        // $(".page-main").css({
-        //     "backgroundColor": "red"
-        // });
+    
+    if ($(window).width() < 1300) {
+        $(".page-main").css({
+            "background-image": "none"
+        });
+                    
+        if ($(window).width() < 700) {
+            $(".header-menu").remove();
+            $(".dropdown").remove();
+            $(".header").append(dropDown);
+            $(".main__subtitle").css({
+                "width": "100px"
+            });
+        }
+        else {
+            $(".dropdown").remove();
+            $(".header-menu").remove();
+            $(".header").append(headerMenu);
+            $(".main__subtitle").css({
+                "width": "250px"
+            });
+        }
     }
     else {
-        $(".dropdown").remove();
-        $(".header-menu").remove();
-        $(".header").append(headerMenu);
-    }
-
-    if ($(window).width() < 500) {
-        $(".main__subtitle").css({
-            "width": "200px"
-        });
-    }
-    else {
-        $(".main__subtitle").css({
-            "width": "250px"
-        });
-    }
-
-    if ($(window).width() < 500) {
-        $("#inputDonate").css({
-            "width": "200px"
-        });
-    }
-    else {
-        $("#inputDonate").css({
-            "width": "400px"
+        $(".page-main").css({
+            "background-image": "url('img/Nazarbayev_University.jpg')"
         });
     }
 });
@@ -101,8 +60,6 @@ $(window).on('resize', function () {
 $(window).ready(function () {
     var dropDown = $("<div class='dropdown'></div");
     var dropDownBtn = $("<button class='btn btn-secondary dropdown-toggle' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>Menu</button>");
-    //var dropDownBtn = $("<button class='dropdownbtn' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>Dropdown button</button>");
-    //var dropdownContent = $("<div class='dropdown-content'>");
     var dropDownMenu = $("<ul class='dropdown-menu' aria-labelledby='dropdownMenuButton1'></ul>");
 
     let dropDownMenuList = [
@@ -127,51 +84,34 @@ $(window).ready(function () {
         headerMenu.append(headerMenuList[step]);
     }
 
-    // let arr = [
-    //     $("<a href='#'>Link 1</a>"),
-    //     $("<a href='#'>Link 2</a>"),
-    //     $("<a href='#'>Link 3</a>")
-    // ];
-
-    // for (step = 0; step <= 2; step++) {
-    //     dropdownContent.append(arr[step]);
-    // }
-
     dropDown.append(dropDownBtn).append(dropDownMenu);
 
-    if ($(window).width() < 1010) {
-        $(".header-menu").remove();
-        $(".dropdown").remove();
-        $(".header").append(dropDown);
-        // $(".page-main").css({
-        //     "backgroundColor": "red"
-        // });
+    
+    if ($(window).width() < 1300) {
+        $(".page-main").css({
+            "background-image": "none"
+        });
+                    
+        if ($(window).width() < 700) {
+            $(".header-menu").remove();
+            $(".dropdown").remove();
+            $(".header").append(dropDown);
+            $(".main__subtitle").css({
+                "width": "100px"
+            });
+        }
+        else {
+            $(".dropdown").remove();
+            $(".header-menu").remove();
+            $(".header").append(headerMenu);
+            $(".main__subtitle").css({
+                "width": "250px"
+            });
+        }
     }
     else {
-        $(".dropdown").remove();
-        $(".header-menu").remove();
-        $(".header").append(headerMenu);
-    }
-
-    if ($(window).width() < 500) {
-        $(".main__subtitle").css({
-            "width": "200px"
-        });
-    }
-    else {
-        $(".main__subtitle").css({
-            "width": "250px"
-        });
-    }
-
-    if ($(window).width() < 500) {
-        $("#inputDonate").css({
-            "width": "200px"
-        });
-    }
-    else {
-        $("#inputDonate").css({
-            "width": "400px"
+        $(".page-main").css({
+            "background-image": "url('img/Nazarbayev_University.jpg')"
         });
     }
 });
