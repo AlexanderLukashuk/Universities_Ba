@@ -1,6 +1,6 @@
 body
 {
-    font-family: 'Work Sans', sans-serif;
+    /* font-family: 'Work Sans', sans-serif; */
     font-weight: 400;
     color: #F4F9E2;
 }
@@ -187,7 +187,7 @@ body
     left: 179px;
     top: 27px;
 
-    font-family: Larsseit;
+    /* font-family: Larsseit; */
     font-size: 24px;
     line-height: 27px;
 
@@ -217,7 +217,7 @@ body
     left: 607px;
     top: 38px;
 
-    font-family: Larsseit;
+    /* font-family: Larsseit; */
     font-size: 20px;
     line-height: 16px;
 
@@ -286,7 +286,7 @@ body
     left: 179px;
     top: 241px;
 
-    font-family: Larsseit;
+    /* font-family: Larsseit; */
     font-size: 24px;
     line-height: 27px;
     letter-spacing: -0.035em;
@@ -301,7 +301,7 @@ body
     left: 179px;
     top: 305px;
 
-    font-family: Larsseit;
+    /* font-family: Larsseit; */
     font-size: 48px;
     line-height: 53px;
     letter-spacing: -0.035em;
@@ -323,7 +323,7 @@ body
     left: 179px;
     top: 491px;
 
-    font-family: Larsseit;
+    /* font-family: Larsseit; */
     font-size: 24px;
     line-height: 42px;
 
@@ -332,7 +332,7 @@ body
 
 .btn_orange
 {
-    width: 150px;
+    width: 250px;
     height: 50px;
     left: 179px;
     top: 715px;
