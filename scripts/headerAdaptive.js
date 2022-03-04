@@ -29,8 +29,8 @@ $(window).on('resize', function () {
 
     let dropDownMenuList = [
         $("<li class='dropdown-menu__list'><a class='dropdown-item' id='home' href='index.html'>Home</a></li>"),
-        $("<li class='dropdown-menu__list'><a class='dropdown-item' id='top_universities'>The Best Universities</a></li>"),
-        $("<li class='dropdown-menu__list'><a class='dropdown-item' id='videos'>Videos</a></li>")
+        $("<li class='dropdown-menu__list'><a class='dropdown-item' id='top_universities' href='universities.html'>The Best Universities</a></li>"),
+        $("<li class='dropdown-menu__list'><a class='dropdown-item' id='videos' href='videos.html'>Videos</a></li>")
     ];
 
     for (step = 0; step < 5; step++) {
@@ -107,8 +107,8 @@ $(window).ready(function () {
 
     let dropDownMenuList = [
         $("<li class='dropdown-menu__list'><a class='dropdown-item' id='home' href='index.html'>Home</a></li>"),
-        $("<li class='dropdown-menu__list'><a class='dropdown-item' id='top_universities'>The Best Universities</a></li>"),
-        $("<li class='dropdown-menu__list'><a class='dropdown-item' id='videos'>Videos</a></li>")
+        $("<li class='dropdown-menu__list'><a class='dropdown-item' id='top_universities' href='universities.html'>The Best Universities</a></li>"),
+        $("<li class='dropdown-menu__list'><a class='dropdown-item' id='videos' href='videos.html'>Videos</a></li>")
     ];
 
     for (step = 0; step < 5; step++) {
