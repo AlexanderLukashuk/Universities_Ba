@@ -1,0 +1,22 @@
+.page-actors
+{
+    background-color: #F4F9E2;
+}
+
+.container-cards
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px 100px 50px;
+}
+
+.card-title
+{
+    color: #62D0DF;
+}
+
+.card-text
+{
+    color: #22356F;
+}
