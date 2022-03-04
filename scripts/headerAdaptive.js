@@ -16,9 +16,9 @@ $(window).on('resize', function () {
     var headerMenu = $("<ul class='header-menu'></ul>");
 
     let headerMenuList = [
-        $("<li class='header-menu__list'><a class='menu-item' id='home'>Home</a></li>"),
-        $("<li class='header-menu__list'><a class='menu-item' id='top_universities'>The Best Universities</a></li>"),
-        $("<li class='header-menu__list'><a class='menu-item' id='videos'>Videos</a></li>")
+        $("<li class='header-menu__list'><a class='menu-item' id='home' href='index.html'>Home</a></li>"),
+        $("<li class='header-menu__list'><a class='menu-item' id='top_universities' href='universities.html'>The Best Universities</a></li>"),
+        $("<li class='header-menu__list'><a class='menu-item' id='videos' href='videos.html'>Videos</a></li>")
     ];
 
     for (step = 0; step <= 5; step++) {
@@ -75,9 +75,9 @@ $(window).ready(function () {
     var headerMenu = $("<ul class='header-menu'></ul>");
 
     let headerMenuList = [
-        $("<li class='header-menu__list'><a class='menu-item' id='home'>Home</a></li>"),
-        $("<li class='header-menu__list'><a class='menu-item' id='top_universities'>The Best Universities</a></li>"),
-        $("<li class='header-menu__list'><a class='menu-item' id='videos'>Videos</a></li>")
+        $("<li class='header-menu__list'><a class='menu-item' id='home' href='index.html'>Home</a></li>"),
+        $("<li class='header-menu__list'><a class='menu-item' id='top_universities' href='universities.html'>The Best Universities</a></li>"),
+        $("<li class='header-menu__list'><a class='menu-item' id='videos' href='videos.html'>Videos</a></li>")
     ];
 
     for (step = 0; step <= 5; step++) {
